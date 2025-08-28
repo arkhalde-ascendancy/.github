@@ -1,0 +1,12 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" data-compliance="gdpr ai-act nis2">
+  <title>Everflame Covenant Trust Crest</title>
+  <desc>Supreme governance entity and sovereign authority | Official crest for Everflame Covenant Trust – www.arkhaldeascendancy.eu</desc>
+  <circle cx="64" cy="64" r="60" fill="#1C1C1C" />
+  <path d="M64 20a44 44 0 1 1 0 88 44 44 0 0 1 0-88z" fill="none" stroke="#FFD700" stroke-width="2"/>
+  <circle cx="64" cy="64" r="32" fill="#B22222" opacity="0.2"/>
+  
+  
+  
+  <circle cx="112" cy="112" r="12" fill="#B22222" />
+  <text x="112" y="116" text-anchor="middle" font-family="Inter" font-size="8" fill="white">EU</text>
+</svg>
