@@ -1,11 +1,23 @@
 # Arkhalde Ascendancy™ Sovereign Org: .gitignore
-# Purpose: Enforce sovereign compliance by excluding non-essential, transient, or sensitive files from version control.
-# Reference: Grand Founder's Codex Registry, GDPR, EU AI Act, NIS2
+# Purpose: Enforce sovereign compliance by excluding non-essential, transient, or sensitive files from version control,
+#          while explicitly preserving immutable audit trails for AI onboarding as mandated by the Grand Founder's Codex.
+# Reference: Grand Founder's Codex Registry | GDPR | EU AI Act | NIS2
 
-# Node modules (for JS/TS automation tooling)
+# ------------------------------------------------------------------------------------------------
+# 1. Sovereign Compliance: AI Audit Logs
+# ------------------------------------------------------------------------------------------------
+# Track onboarding logs for AI guardian compliance audits in all Divisions and Subdivisions.
+# (Codex III.7, VI.2, GDPR, EU AI Act, NIS2)
+!division-*/subdivision-*/ai/training_data/onboarding.log
+
+# ------------------------------------------------------------------------------------------------
+# 2. Node modules (for JS/TS automation tooling)
+# ------------------------------------------------------------------------------------------------
 node_modules/
 
-# Python artifacts (for AI Pantheon and automation scripts)
+# ------------------------------------------------------------------------------------------------
+# 3. Python artifacts (for AI Pantheon and automation scripts)
+# ------------------------------------------------------------------------------------------------
 __pycache__/
 *.pyc
 *.pyo
@@ -13,46 +25,58 @@ __pycache__/
 *.env
 .env.*
 
-# Compiled code & build artifacts
+# ------------------------------------------------------------------------------------------------
+# 4. Compiled code & build artifacts
+# ------------------------------------------------------------------------------------------------
 dist/
 build/
 *.egg-info/
 
-# OS junk files
+# ------------------------------------------------------------------------------------------------
+# 5. OS junk files
+# ------------------------------------------------------------------------------------------------
 .DS_Store
 Thumbs.db
 ehthumbs.db
 Icon?
 Desktop.ini
 
-# IDE/editor configs
+# ------------------------------------------------------------------------------------------------
+# 6. IDE/editor configs
+# ------------------------------------------------------------------------------------------------
 .vscode/
 .idea/
 *.swp
 *.swo
 
-# Logs and temp files
+# ------------------------------------------------------------------------------------------------
+# 7. Logs and temp files
+# ------------------------------------------------------------------------------------------------
 *.log
 *.tmp
 *.bak
-*.swp
-*.swo
 *.err
 *.out
 
-# Local workflow and test artifacts
+# ------------------------------------------------------------------------------------------------
+# 8. Local workflow and test artifacts
+# ------------------------------------------------------------------------------------------------
 workflows/.temp/
 test-output/
 coverage/
 htmlcov/
 
-# Secret and sensitive config files (enforce GDPR pseudonymization)
+# ------------------------------------------------------------------------------------------------
+# 9. Secret and sensitive config files (enforce GDPR pseudonymization)
+# ------------------------------------------------------------------------------------------------
 secrets/
 *.key
 *.crt
 *.pem
 
-# Sovereign: Do not track files containing non-pseudonymized, unapproved, or personal data
+# ------------------------------------------------------------------------------------------------
+# 10. Sovereign: Do not track files containing non-pseudonymized, unapproved, or personal data
 # (Codex: All data under version control must comply with GDPR & AI Act pseudonymization mandates)
+# ------------------------------------------------------------------------------------------------
 
 # End of Arkhalde Sovereign .gitignore
