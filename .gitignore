@@ -1,0 +1,58 @@
+# Arkhalde Ascendancy™ Sovereign Org: .gitignore
+# Purpose: Enforce sovereign compliance by excluding non-essential, transient, or sensitive files from version control.
+# Reference: Grand Founder's Codex Registry, GDPR, EU AI Act, NIS2
+
+# Node modules (for JS/TS automation tooling)
+node_modules/
+
+# Python artifacts (for AI Pantheon and automation scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env.*
+
+# Compiled code & build artifacts
+dist/
+build/
+*.egg-info/
+
+# OS junk files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# IDE/editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.err
+*.out
+
+# Local workflow and test artifacts
+workflows/.temp/
+test-output/
+coverage/
+htmlcov/
+
+# Secret and sensitive config files (enforce GDPR pseudonymization)
+secrets/
+*.key
+*.crt
+*.pem
+
+# Sovereign: Do not track files containing non-pseudonymized, unapproved, or personal data
+# (Codex: All data under version control must comply with GDPR & AI Act pseudonymization mandates)
+
+# End of Arkhalde Sovereign .gitignore
