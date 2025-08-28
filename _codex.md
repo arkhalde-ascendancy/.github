@@ -33,6 +33,20 @@ All automation, workflow, and policy artifacts in this repository are engineered
 - **Supreme Architect:** johntt46 (Founder, Everflame Covenant Trust)
 - **Co-Founder:** [Wife’s GitHub handle or legal name] (Co-Governance, Codex Enforcement)
 
+## Phase 2 Milestone: AI Guardian Mass Onboarding
+
+- **Date:** 2025-08-28
+- **Action:** Mass onboarding of all 240 AI guardians completed using `arkhalde_mass_training_data_bootstrap.sh`.
+- **Artifacts:**  
+  - `division-*/subdivision-*/ai/training_data/initial_protocols.json`  
+  - `division-*/subdivision-*/ai/training_data/onboarding.log`
+- **Codex Articles:** III.6, III.7, VI.2
+- **Compliance:** GDPR, EU AI Act, NIS2
+- **Sovereign Purpose:**  
+  Establishes an immutable, auditable record of all AI onboarding events across the Arkhalde Ascendancy™ as mandated by the Grand Founder's Codex.
+
+---
+
 All rights, obligations, and enforcement powers are reserved to the Arkhalde Ascendancy™ as per the Grand Founder's Codex Registry.
 
 ---
