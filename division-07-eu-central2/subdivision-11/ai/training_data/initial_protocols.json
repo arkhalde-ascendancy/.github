@@ -2,7 +2,7 @@
   "protocol_id": "proto-001",
   "pseudonymized_user": "user-xyz",
   "action": "initiate_guardian",
-  "timestamp": "2025-08-28T14:58:54Z",
+  "timestamp": "2025-08-28T15:32:40Z",
   "region": "eu-central2",
   "compliance": ["gdpr", "eu-ai-act", "nis2"],
   "codex_article": ["III.6"],
