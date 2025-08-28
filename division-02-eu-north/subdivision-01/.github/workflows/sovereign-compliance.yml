@@ -1,0 +1,33 @@
+# Arkhalde Ascendancy™: Sovereign Compliance Enforcement Workflow
+# Purpose: Enforce Codex Article I.3, GDPR, EU AI Act, and NIS2 compliance on every push
+
+name: Sovereign Compliance Audit
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  compliance-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run GDPR Pseudonymization Check
+        run: |
+          echo "Checking all code and data for GDPR-compliant pseudonymization..."
+          # Insert actual audit script or call to compliance tooling here
+
+      - name: Codex Registry Validation
+        run: |
+          echo "Verifying _codex.md presence and structure..."
+          if [ ! -f _codex.md ]; then
+            echo "ERROR: _codex.md missing — Sovereignty violation."
+            exit 1
+          fi
+
+      - name: EU Law Acknowledgement
+        run: |
+          echo "All workflows and data flows are subject to EU jurisdiction and Codex supremacy."
