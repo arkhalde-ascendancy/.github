@@ -1,12 +1,12 @@
 """
-Arkhalde Ascendancy™ — Subdivision 01 (EU Central)
+Arkhalde Ascendancy™ — division-01-eu-central / subdivision-01
 AI Guardian Protocol
 
 Codex Reference: III.2, III.6 | GDPR, EU AI Act, NIS2
 Sovereign Purpose:
-This guardian ensures compliance, security, and auditability for all AI-driven operations within Subdivision 01. All actions are logged and subject to joint Trust oversight.
+This guardian ensures compliance, security, and auditability for all AI-driven operations within its subdivision. All actions are logged and subject to joint Trust oversight.
 
-- All data processed is subject to GDPR and must remain within EU Central jurisdiction.
+- All data processed is subject to GDPR and must remain within EU-Central jurisdiction.
 - AI decisions are logged for audit by the Independent Oversight Trust.
 - Human-in-the-loop enforcement is mandatory for escalations and critical actions.
 
@@ -26,29 +26,22 @@ def enforce_compliance(data):
     Raises:
         Exception: If compliance cannot be determined.
     """
-    # Example: Pseudonymize data and check residency
     try:
-        if data.get('region') != 'EU-Central':
-            raise Exception("Data residency violation: Must remain in EU Central.")
-        if not data.get('pseudonymized', False):
+        if data.get("region") != "EU-Central":
+            raise Exception("Data residency violation: Must remain in EU-Central.")
+        if not data.get("pseudonymized", False):
             raise Exception("GDPR violation: Data is not pseudonymized.")
-        # Additional compliance checks here...
         return True
     except Exception as e:
         logging.error(f"[COMPLIANCE FAILURE]: {e}")
-        # Escalate to both Trusts (placeholder)
         notify_trusts(str(e))
         sys.exit(1)
 
 def notify_trusts(message):
-    """
-    Placeholder for escalation logic to both Supreme Trusts.
-    """
     logging.critical(f"ESCALATION TO TRUSTS: {message}")
 
 if __name__ == "__main__":
     logging.basicConfig(level=logging.INFO)
-    # Example execution for pipeline integration
     test_data = {
         "region": "EU-Central",
         "pseudonymized": True

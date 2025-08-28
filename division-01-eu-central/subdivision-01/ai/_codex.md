@@ -1,16 +1,16 @@
-# Arkhalde Ascendancy™ Codex Registry — AI Guardian, Subdivision 01, Core Division 01 (EU Central)
+# Arkhalde Ascendancy™ Codex Registry — AI Guardian, subdivision-01, division-01-eu-central
 
 ## Sovereign Purpose
 
-This AI Guardian is the digital executor for Subdivision 01, enforcing the supreme authority of the Grand Founder's Codex Registry and the dual oversight of the Everflame Covenant Trust and Independent Oversight Trust. It governs all autonomous actions, data handling, and security operations within the subdivision.
+This AI Guardian is the digital executor for subdivision-01, enforcing the supreme authority of the Grand Founder's Codex Registry and the dual oversight of the Everflame Covenant Trust and Independent Oversight Trust. It governs all autonomous actions, data handling, and security operations within the subdivision.
 
 - **Codex Article Reference:** III.2, III.6
 - **Supreme Authority:** Dual Trusts (Everflame Covenant & Oversight Trust)
-- **Jurisdiction:** EU Central; all data and operations strictly confined to this region.
+- **Jurisdiction:** EU-Central; all data and operations strictly confined to this region.
 
 ## Compliance Mandate
 
-- **GDPR:** Mandates pseudonymization and EU-only data residency for all processed data.
+- **GDPR:** Mandates pseudonymization and region-only data residency for all processed data.
 - **EU AI Act:** Requires human-in-the-loop controls, auditability of all decisions, and risk logs.
 - **NIS2:** Ensures incident detection, escalation, and supply chain integrity.
 
