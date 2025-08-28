@@ -4,6 +4,7 @@
 name: Sovereign Compliance Audit
 
 on:
+  workflow_dispatch:      # <-- Add this line to enable manual runs
   push:
     branches: [ main ]
   pull_request:
