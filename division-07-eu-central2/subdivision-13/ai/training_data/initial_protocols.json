@@ -1,0 +1,10 @@
+{
+  "protocol_id": "proto-001",
+  "pseudonymized_user": "user-xyz",
+  "action": "initiate_guardian",
+  "timestamp": "2025-08-28T14:58:54Z",
+  "region": "eu-central2",
+  "compliance": ["gdpr", "eu-ai-act", "nis2"],
+  "codex_article": ["III.6"],
+  "sovereign_purpose": "Seed Arkhalde AI Guardian for compliance onboarding in eu-central2 / 07 / 13"
+}
